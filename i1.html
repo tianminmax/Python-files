@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>@echo </p>
+    <p>chcp 65001</p>
+    <p>set /p i=请输入创建的个数:</p>
+    <p>for /l %%a in (1,1,%%i) do md C:\Users\Administrator\Desktop\%%a</p>
+    <br>
+    <br>
+    <p>@echo</p>
+    <p>rem echo 创建的内容> C:\Users\Administrator\Desktop\1.txt</p>
+    <p>rem 创建文件</p>
+    <p>rem md C:\Users\Administrator\Desktop\1</p>
+    <p>rem 创建文件夹</p>
+    <p>rem set /p i=</p>
+    <p>rem echo 0> C:\Users\Administrator\Desktop\%i%.txt</p>
+    <p>chcp 65001</p>
+    <p>set /p i=请输入文件名:</p>
+    <p>set /p n=请输入内容:</p>
+    <p>echo %n%> C:\Users\Administrator\Desktop\%i%.txt</p>
+    <p>pause</p>
+</body>
+</html>
